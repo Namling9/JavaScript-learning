@@ -2,18 +2,28 @@
    that can be utilized during program execution.
    It has a name, a value, and a memory address. */
 
+
 /*The const keyword in JavaScript is used to declare constant variables.
  A constant variable is a variable whose value cannot be changed. */
 
  //String datatype
 const Name = "Namling Limbu";
 
+
+//The console.log() method in JavaScript is used to print any kind of variables or messages to the web console.
+console.log(" My Name is ", Name);
+
+
 /*The let keyword in JavaScript is used to declare a variable that is block-scoped. 
 This means that the variable exists only within the block, statement,
  or expression where it is declared, as well as in any sub-blocks contained within it. */
 
  // Integer/Number datatype
+
 let age = 20;
+
+console.log("Age: ", age);
+
 
 /* The var keyword in JavaScript is used to declare a variable.
 it is function-scoped or globally-scoped,
@@ -24,9 +34,12 @@ it is function-scoped or globally-scoped,
   // Boolean datatype.
   var isStudent = true;
 
+  console.log("Is a Student: ", isStudent);
+
   // Float datatype
 
   let height = 5.7;
+  console.log("Height: ", height,"ft");
 
   //Undefined: A variable that has not been assigned a value has the type “undefined”. 
 
@@ -41,7 +54,7 @@ it is function-scoped or globally-scoped,
   console.log(typeof obj); //null
 
   // But if you put + or - sign before null value it will return 0
-  
+
   let obj1 = -null;
   console.log(obj1); // -0
 
