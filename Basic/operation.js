@@ -32,9 +32,9 @@ console.log(a <= b); // true
 var x = 5;
 var y = 10;
 
-console.log(x < 10 && y > 5); // true
-console.log(x > 10 || y < 5); // false
-console.log(!(x == y)); // true
+console.log(x < 10 && y > 5); // true // && (AND Logical operator)
+console.log(x > 10 || y < 5); // false // || (OR Logical Operator)
+console.log(!(x == y)); //  true // ! ( NOT logical Operator)
 
 // Assignment Operators: These operators are used to assign values to variables.
 
