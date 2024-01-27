@@ -67,3 +67,10 @@
 
    console.log(sum(5,5)); // 10
    console.log(typeof sum); // Function
+
+   /* primitive data types are generally stored on the stack, while objects, 
+   including primitive data types that are part of an object, are stored on the heap.
+    The stack and the heap are both important parts of the computer’s memory, and 
+    they serve different purposes in the execution of a Java program.
+
+*/
