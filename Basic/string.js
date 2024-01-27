@@ -58,3 +58,10 @@ console.log(faculty.length);
 
 console.log(String.prototype.concat(name,age));//namling20
 
+// tostring() method
+
+let score = 100;
+let score2 = score.toString()
+console.log(score2); // 100
+console.log(typeof score2); // String
+console.log(typeof score); // number
