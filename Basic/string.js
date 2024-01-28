@@ -65,3 +65,7 @@ let score2 = score.toString()
 console.log(score2); // 100
 console.log(typeof score2); // String
 console.log(typeof score); // number
+
+
+let college = "GoldenGate International College"
+console.log(college.substring(0,10)); //GoldenGate
