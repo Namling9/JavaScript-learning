@@ -7,7 +7,7 @@ An Immediately Invoked Function Expression (IIFE) is a JavaScript function that 
  
  */
 
- // IFFE function
+ // IIFE function
 
  ( function connect(){
     console.log("DataBase Connected"); //DataBase Connected
