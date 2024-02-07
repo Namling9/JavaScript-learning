@@ -80,7 +80,7 @@ one();
   // Mini hoisting
  
 
-  one(10,20,30,40,50);
+  //one(10,20,30,40,50);
 
   function one(...num) {
 
@@ -91,7 +91,7 @@ one();
             result += num[index];
 
     }
-    console.log(result);
+    // console.log(result);
   }
 
 
@@ -108,7 +108,11 @@ one();
             result += num[index];
 
     }
-    console.log(result);
+   // console.log(result);
   }
      
-    
+    let number = 10;
+
+    if(true){
+       console.log(number);
+    }
