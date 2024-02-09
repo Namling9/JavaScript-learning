@@ -45,3 +45,5 @@ console.log(sum(5,5)); // 10
 const name = () => ({username:"namling"})
 
 console.log(name()); // { username: 'namling' }
+
+
