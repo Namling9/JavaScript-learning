@@ -4,7 +4,7 @@ let arr = [2,35,6,732,56,"hello"];
 
 for( const num of arr){
 
-  //  console.log(num); 
+  // console.log(num); 
 
   /* 2
      35
@@ -12,6 +12,15 @@ for( const num of arr){
      732
      56
      hello */
+
+ //    console.log(arr);
+
+     /* [ 2, 35, 6, 732, 56, 'hello' ]
+[ 2, 35, 6, 732, 56, 'hello' ]
+[ 2, 35, 6, 732, 56, 'hello' ]
+[ 2, 35, 6, 732, 56, 'hello' ]
+[ 2, 35, 6, 732, 56, 'hello' ]
+[ 2, 35, 6, 732, 56, 'hello' ] */
 
 }
 
@@ -72,6 +81,12 @@ for( const key of mymap){
                     /* [ 'IND', 'India' ]
                         [ 'NEP', 'Nepal' ]
                         [ 'UK', 'United Kingdom' ] */
+
+                       // console.log(mymap);
+
+                       /* Map(3) { 'IND' => 'India', 'NEP' => 'Nepal', 'UK' => 'United Kingdom' }
+Map(3) { 'IND' => 'India', 'NEP' => 'Nepal', 'UK' => 'United Kingdom' }
+Map(3) { 'IND' => 'India', 'NEP' => 'Nepal', 'UK' => 'United Kingdom' } */
 }
 
 for( const [key1, value] of mymap){
